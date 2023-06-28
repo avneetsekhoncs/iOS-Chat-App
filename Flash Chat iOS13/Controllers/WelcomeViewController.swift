@@ -9,14 +9,27 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-
+    
     @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       
+        
+        /*
+         Gives the title a typing animation.
+         */
+        titleLabel.text = ""
+        var charIndex = 0.0
+        let titleLabelText = "⚡️FlashChat"
+        
+        titleLabelText.forEach { character in
+            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { timer in
+                self.titleLabel.text?.append(character)
+            }
+            charIndex += 1
+        }
+        
     }
     
-
 }
+
