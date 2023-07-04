@@ -20,7 +20,7 @@ class ChatViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.hidesBackButton = true
-        navigationItem.title = "Avneet"
+        navigationItem.title = Constants.appName
 
     }
     
