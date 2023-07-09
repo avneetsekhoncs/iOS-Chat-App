@@ -15,4 +15,6 @@ An internet based messaging app similar to Whatsapp that uses a service called F
 * Learn about the App Lifecycle and how to use viewWillAppear or viewWillDisappear.
 * How to create direct Segues for navigation.
 
+![](https://github.com/avneetsekhoncs/iOS-Chat-App/blob/main/iOS-Chat-App-Demo.gif)
+
 >This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
